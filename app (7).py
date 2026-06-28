@@ -58,7 +58,7 @@ def build_rag_pipeline():
         separators=["
 
 ", "
-", ". ", " ", ""],
+", ". ", " ", """],
     )
     chunks = splitter.split_documents(documents)
 
